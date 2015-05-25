@@ -1,7 +1,7 @@
 Summary:	Oxygen fonts created by the KDE Community
 Name:		fonts-TTF-KDE-Oxygen
 Version:	5.3.0
-Release:	1
+Release:	2
 License:	OFL or GPLv3 with exceptions
 Group:		Fonts
 Source0:	http://download.kde.org/stable/plasma/%{version}/oxygen-fonts-%{version}.tar.xz
@@ -13,7 +13,6 @@ BuildRequires:	cmake
 BuildRequires:	fontforge
 Requires(post,postun):	fontpostinst
 Requires:	%{_fontsdir}/TTF
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_ttffontsdir	%{_fontsdir}/TTF
